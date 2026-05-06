@@ -336,7 +336,7 @@ export default function App() {
         <header className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
           <div>
             <p className="text-sm uppercase tracking-wide text-slate-500">ERA5-Land / New Zealand districts</p>
-            <h1 className="text-3xl md:text-5xl font-semibold tracking-tight">Temperature anomaly dashboard</h1>
+            <h1 className="text-3xl md:text-5xl font-semibold tracking-tight">New Zealand Climate Tracker</h1>
             <p className="mt-3 max-w-3xl text-slate-600">Choose a district and period to identify local anomaly extremes, national anomaly extremes, and compare the selected period with the national mean.</p>
             <p className="mt-2 text-xs text-slate-500">{dataStatus}</p>
             <p className="mt-1 text-xs text-slate-500">Loaded districts: {districts.length.toLocaleString()} | Rows for selected district/period: {districtPeriodRows.length.toLocaleString()} | Rows for selected period nationally: {countryPeriodRows.length.toLocaleString()}</p>
